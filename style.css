@@ -26,6 +26,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow-x: hidden;
 }
 a {
   text-decoration: none;
@@ -42,8 +43,8 @@ a {
   justify-content: space-between;
 }
 div.hr {
-  width: 100%;
-  height: 1px;
+  width: 100% !important;
+  height: 2px;
   background: var(--primary-color);
 }
 div.reveal {
@@ -65,11 +66,6 @@ div.reveal:nth-last-child(1) {
 h1 {
   font-size: 5.4em;
   font-weight: 400;
-}
-h1 span {
-  font-style: italic;
-  margin-left: -8px;
-  padding-right: 5px;
 }
 .secondary {
   font-family: 'Poppins', sans-serif;
@@ -119,7 +115,7 @@ a.link {
 }
 .socials {
   background: #fff38c;
-  margin-right: 16%;
+  margin-right: 12%;
   width: 30%;
 }
 .id {
@@ -145,6 +141,8 @@ h2 {
   text-transform: none;
   font-size: 16px;
   font-weight: 200;
+  padding-left: 20px;
+  border-left: 4px solid var(--primary-color);
 }
 
 .about-container {
@@ -297,16 +295,32 @@ h2 {
   }
 }
 @media (max-width: 724px) {
-  h1 {
-    font-size: 2em !important;
+  h1.secondary {
+    font-size: 0.8em !important;
+  }
+  h1.primary {
+    font-size: 1.5em !important;
   }
   p {
     font-size: 10px !important;
   }
   .reveal {
-    height: 100px;
+    height: 30px;
+  }
+  .reveal h1.primary {
+    line-height: 0.8em !important;
   }
   .white-space {
     height: 40px;
+  }
+  .socials-container .social-links a {
+    font-size: 20px;
+  }
+  .nav-item {
+    flex-direction: column;
+    padding-right: 10px;
+  }
+  .row {
+    align-items: center;
   }
 }
