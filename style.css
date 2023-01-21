@@ -463,7 +463,7 @@ textarea#message::placeholder {
     align-items: center;
   }
 }
-@media (max-width: 391px) {
+@media (max-width: 395px) {
   h1.secondary {
     font-size: 0.87em !important;
   }
