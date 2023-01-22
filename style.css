@@ -382,7 +382,6 @@ textarea#message {
   background: none;
   outline: none;
   border: none;
-  border-bottom: 1px solid var(--primary-color);
   color: var(--primary-color);
   padding: 0.4em;
   font-size: 18px;
@@ -452,7 +451,7 @@ textarea#message::placeholder {
     height: 35px;
   }
   .reveal h1.primary {
-    line-height: 0.7em !important;
+    line-height: 0.8em;
   }
   .white-space {
     height: 40px;
