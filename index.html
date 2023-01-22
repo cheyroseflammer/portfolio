@@ -199,7 +199,7 @@
           <p>"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, corrut."</p>
         </div>
         <div class="bar">
-          <div class="site-name"><p>chey rose</p></div>
+          <div class="site-name"><p>chey</p></div>
           <div class="branding">
             <p>CIRCA</p>
             <img
@@ -231,20 +231,51 @@
           </div>
           <div class="contact-form col">
             <div class="form-wrapper">
-              <div class="form-row">
-                <input type="text" placeholder="name" />
-                <input type="text" placeholder="budget" />
-              </div>
-              <div class="form-row">
-                <input type="text" placeholder="email" />
-                <input type="text" placeholder="company" />
-              </div>
-              <div class="form-row">
-                <textarea name="" id="message" placeholder="message" cols="30" rows="5"></textarea>
-              </div>
-              <div class="form-row submit">
-                <button>Sumbit</button>
-              </div>
+              <form action="https://formspree.io/f/xknqdqkv" method="POST">
+                <div class="fields">
+                  <div class="field name">
+                    <input
+                      class="contact-input"
+                      name="name"
+                      type="text"
+                      placeholder="Name"
+                      required
+                    />
+                  </div>
+                  <div class="field email">
+                    <input
+                      class="contact-input"
+                      name="_replyto"
+                      type="email"
+                      placeholder="Email"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="field">
+                  <input
+                    class="contact-input"
+                    name="subject"
+                    type="text"
+                    placeholder="Subject"
+                    required
+                  />
+                </div>
+                <div class="field textarea">
+                  <textarea
+                    class="contact-input"
+                    id="message"
+                    name="message"
+                    cols="30"
+                    rows="10"
+                    placeholder="Message.."
+                    required
+                  ></textarea>
+                </div>
+                <div class="submit">
+                  <button type="submit">Submit</button>
+                </div>
+              </form>
             </div>
           </div>
         </div>

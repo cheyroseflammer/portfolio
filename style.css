@@ -352,12 +352,17 @@ input {
   background: none;
   outline: none;
   border: none;
-  border-bottom: 1px solid var(--primary-color);
-  font-size: 24px;
+  font-size: 22px;
   padding: 0.4em;
   width: 100%;
-  margin-bottom: 0.4em;
   color: var(--primary-color);
+}
+input.contact-input {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+}
+.field {
+  border-bottom: 1px solid var(--primary-color);
 }
 input::placeholder {
   color: var(--primary-color);
