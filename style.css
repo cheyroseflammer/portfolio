@@ -463,28 +463,7 @@ textarea#message::placeholder {
     align-items: center;
   }
 }
-@media (max-width: 395px) {
-  h1.secondary {
-    font-size: 0.87em !important;
-  }
-  h1.primary {
-    font-size: 2.3em !important;
-  }
-  .reveal {
-    height: 40px;
-  }
-  .white-space {
-    height: 20px;
-  }
-  .row {
-    height: 50px;
-  }
-  .nav-item {
-    height: 42px;
-  }
-  a.link {
-    margin-bottom: 10px;
-  }
+@media (max-width: 415px) {
   .row.intro p {
     font-size: 9px;
   }
