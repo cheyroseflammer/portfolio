@@ -442,7 +442,7 @@ textarea#message::placeholder {
   }
   .reveal {
     margin-top: 5px;
-    height: 35px;
+    height: 40px;
   }
   .reveal h1.primary {
     line-height: 0.7em;
