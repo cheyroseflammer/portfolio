@@ -143,6 +143,9 @@ a.link {
 .id {
   margin-right: 0.8em;
 }
+.hero__container {
+  padding-top: 2em;
+}
 /* Section Headers */
 .section-header .section-header-container {
   display: flex;
