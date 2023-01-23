@@ -143,9 +143,6 @@ a.link {
 .id {
   margin-right: 0.8em;
 }
-.hero__container {
-  padding-top: 2em;
-}
 /* Section Headers */
 .section-header .section-header-container {
   display: flex;
@@ -444,6 +441,7 @@ textarea#message::placeholder {
     font-size: 2.3em;
   }
   .reveal {
+    margin-top: 5px;
     height: 35px;
   }
   .reveal h1.primary {
