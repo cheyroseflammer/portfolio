@@ -124,7 +124,7 @@ p {
 .middle {
   width: 100%;
   float: left;
-  padding-left: 10%
+  padding-left: 10%;
 }
 a.link {
   color: #0e0e0e;
@@ -446,7 +446,7 @@ textarea#message::placeholder {
     height: 35px;
   }
   .reveal h1.primary {
-    line-height: 0.7em;
+    line-height: 0.8em;
   }
   .white-space {
     height: 20px;
