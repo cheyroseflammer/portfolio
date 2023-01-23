@@ -75,10 +75,6 @@ div.reveal:nth-child(2) {
   position: relative;
   overflow: hidden;
 }
-.reveal h1.middle {
-  margin-right: 1em;
-  font-size: 5em;
-}
 .reveal h1.based {
   margin-left: 12%;
 }
@@ -112,7 +108,7 @@ p {
   height: 50px;
 }
 .nav-item {
-  width: 240px;
+  width: 14em;
   border-radius: 0 0 40px 0;
   margin: 0.6em;
   display: flex;
@@ -120,14 +116,15 @@ p {
   align-items: flex-end;
   color: #0e0e0e;
 }
-.nav-item.contact {
-  margin-right: 20%;
-  width: 40%;
-}
 .nav-item > p {
   padding: 1em;
   font-size: 14px;
   font-weight: 500;
+}
+.middle {
+  width: 100%;
+  float: left;
+  padding-left: 10%
 }
 a.link {
   color: #0e0e0e;
@@ -140,12 +137,10 @@ a.link {
 }
 .contact {
   background: #e6dfa8;
-  width: 30%;
 }
 .socials {
   background: #f4ed6b;
   margin-right: 12%;
-  width: 30%;
 }
 .id {
   margin-right: 0.8em;
@@ -333,7 +328,9 @@ img.smile {
 }
 .col {
   width: 50%;
-  padding: 1em 3em;
+}
+.contact-form {
+  padding: 0 0 20px 60px;
 }
 .contact-section {
   width: 100%;
@@ -342,6 +339,7 @@ img.smile {
 .contact-details {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 .contact-details p {
   font-size: 3.8em;
@@ -426,10 +424,7 @@ textarea#message::placeholder {
     transform: translate(-100%, 0);
   }
 }
-@media (max-width: 900px) {
-  h1 {
-    font-size: 2.8em !important;
-  }
+@media (max-width: 800px) {
   .reveal {
     height: 120px;
   }
@@ -442,39 +437,49 @@ textarea#message::placeholder {
 }
 @media (max-width: 724px) {
   h1.secondary {
-    font-size: 1.5em !important;
+    font-size: 1.4em;
   }
   h1.primary {
-    font-size: 2.5em !important;
+    font-size: 2.5em;
   }
   .reveal {
     height: 35px;
   }
   .reveal h1.primary {
-    line-height: 0.9em;
+    line-height: 0.7em;
   }
   .white-space {
-    height: 40px;
+    height: 20px;
   }
   .socials-container .social-links a {
     font-size: 20px;
   }
   .nav-item {
     flex-direction: column;
-    padding-right: 10px;
   }
   .row {
     align-items: center;
+  }
+  .middle {
+    font-size: 1.2em !important;
+  }
+  .contact-details p {
+    font-size: 2.5em;
+  }
+  .contact-form {
+    padding-left: 15px;
   }
 }
 @media (max-width: 415px) {
   .row.intro p {
     font-size: 9px;
   }
-
   .contact-section {
     display: flex;
     flex-direction: column;
+  }
+  .contact-form {
+    margin-bottom: 20px;
   }
   .col {
     width: 100%;
