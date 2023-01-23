@@ -70,16 +70,13 @@ div.reveal:nth-child(2) {
   justify-content: flex-end;
 }
 .reveal {
-  width: 500px;
+  width: 300px;
   height: 140px;
   position: relative;
   overflow: hidden;
 }
 .reveal h1.based {
   margin-left: 12%;
-}
-.reveal h1.web {
-  margin-left: 8%;
 }
 .reveal h1 {
   position: absolute;
@@ -112,8 +109,9 @@ p {
   border-radius: 0 0 40px 0;
   margin: 0.6em;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: flex-start;
   color: #0e0e0e;
 }
 .nav-item > p {
