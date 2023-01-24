@@ -70,7 +70,7 @@ div.reveal:nth-child(2) {
   justify-content: flex-end;
 }
 .reveal {
-  width: 500px;
+  width: 600px;
   height: 140px;
   position: relative;
   overflow: hidden;
