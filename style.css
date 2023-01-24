@@ -70,10 +70,10 @@ div.reveal:nth-child(2) {
   justify-content: flex-end;
 }
 .reveal {
-  width: 600px;
+  width: 400px;
   height: 140px;
   position: relative;
-  overflow: hidden;
+  overflow-y: hidden;
 }
 .reveal h1.based {
   margin-left: 12%;
