@@ -70,16 +70,13 @@ div.reveal:nth-child(2) {
   justify-content: flex-end;
 }
 .reveal {
-  width: 400px;
+  width: 500px;
   height: 140px;
   position: relative;
   overflow-y: hidden;
 }
 .reveal h1.based {
   margin-left: 12%;
-}
-.reveal h1.web {
-  margin-left: 8%;
 }
 .reveal h1 {
   position: absolute;
@@ -112,8 +109,9 @@ p {
   border-radius: 0 0 40px 0;
   margin: 0.6em;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: flex-start;
   color: #0e0e0e;
 }
 .nav-item > p {
@@ -343,7 +341,7 @@ img.smile {
 }
 .contact-details p {
   font-size: 3.8em;
-  line-height: 60px;
+  line-height: 80px;
   padding-top: 0.8em;
 }
 input {
@@ -440,13 +438,14 @@ textarea#message::placeholder {
     font-size: 1.4em;
   }
   h1.primary {
-    font-size: 2.5em;
+    font-size: 2.3em;
   }
   .reveal {
-    height: 35px;
+    margin-top: 5px;
+    height: 40px;
   }
   .reveal h1.primary {
-    line-height: 0.8em;
+    line-height: 1em;
   }
   .white-space {
     height: 20px;
