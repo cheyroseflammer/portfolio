@@ -24,10 +24,22 @@ tl.from(
   '-=1.5'
 );
 tl.from(
-  '.reveal h1, h2, p.text',
+  '.reveal h1',
   1.8,
   {
     y: 200,
+    ease: 'power4.out',
+    stagger: {
+      amount: 0.8,
+    },
+  },
+  '-=2'
+);
+tl.from(
+  'h2, p.text',
+  1.8,
+  {
+    y: 500,
     ease: 'power4.out',
     stagger: {
       amount: 0.8,
