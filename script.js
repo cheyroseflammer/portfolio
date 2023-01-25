@@ -24,7 +24,7 @@ tl.from(
   '-=1.5'
 );
 tl.from(
-  '.reveal h1',
+  '.reveal h1, h2, p.text',
   1.8,
   {
     y: 200,
