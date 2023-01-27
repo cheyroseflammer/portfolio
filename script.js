@@ -41,6 +41,7 @@ tl.from(
   {
     y: 500,
     ease: 'power4.out',
+    opacity: 0,
     stagger: {
       amount: 0.8,
     },
