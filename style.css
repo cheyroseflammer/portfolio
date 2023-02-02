@@ -13,6 +13,7 @@
   box-sizing: border-box;
 }
 body {
+  background-color: #0c0c0c;
   background-image: url(assets/grain.png);
   background-repeat: repeat;
   color: var(--primary-color);
