@@ -49,6 +49,15 @@ a {
 ::-webkit-scrollbar-thumb:hover {
   background: #ddd374;
 }
+/* ANIMATE CSS IN */
+.intro > p,
+.hr,
+.reveal h1,
+h2,
+p.text,
+.nav-item {
+  visibility: hidden;
+}
 /* HERO */
 .wrapper {
   width: 100%;
