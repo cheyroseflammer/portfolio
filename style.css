@@ -62,7 +62,7 @@ p.text,
 .wrapper {
   width: 100%;
   height: 100%;
-  padding: 2em;
+  padding: 1rem;
 }
 .row {
   display: flex;
@@ -75,6 +75,7 @@ div.hr {
 }
 div.reveal {
   display: flex;
+  align-items: center;
 }
 div.reveal:nth-child(2) {
   justify-content: flex-end;
@@ -90,7 +91,6 @@ div.reveal:nth-child(2) {
 }
 .reveal h1 {
   position: absolute;
-  line-height: 1.8em;
 }
 h1 {
   font-size: 5.4em;
@@ -131,6 +131,7 @@ p {
 }
 .middle {
   width: 100%;
+  font-size: 2.8rem;
 }
 a.link {
   color: #0e0e0e;
@@ -143,9 +144,12 @@ a.link {
 }
 .contact {
   background: #e6dfa8;
+  margin-left: 10px;
 }
 .socials {
   background: #f4ed6b;
+  padding: 0 12px;
+  margin-right: 20px;
 }
 .id {
   margin-right: 0.8em;
@@ -450,9 +454,6 @@ textarea#message::placeholder {
   p {
     font-size: 14px;
   }
-  .middle {
-    font-size: 2rem;
-  }
   .reveal {
     margin-top: 5px;
     height: 40px;
@@ -480,9 +481,6 @@ textarea#message::placeholder {
   }
 }
 @media (max-width: 415px) {
-  .wrapper {
-    padding: 1rem;
-  }
   .row.intro p {
     font-size: 9px;
   }
