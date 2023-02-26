@@ -98,7 +98,7 @@ h1 {
 }
 .secondary {
   font-weight: 200;
-  font-size: 4rem;
+  font-size: 3.2rem;
 }
 p {
   padding: 0.8em 0;
@@ -131,8 +131,6 @@ p {
 }
 .middle {
   width: 100%;
-  float: left;
-  padding-left: 10%;
 }
 a.link {
   color: #0e0e0e;
@@ -148,7 +146,6 @@ a.link {
 }
 .socials {
   background: #f4ed6b;
-  margin-right: 12%;
 }
 .id {
   margin-right: 0.8em;
@@ -453,6 +450,9 @@ textarea#message::placeholder {
   p {
     font-size: 14px;
   }
+  .middle {
+    font-size: 2rem;
+  }
   .reveal {
     margin-top: 5px;
     height: 40px;
@@ -472,9 +472,6 @@ textarea#message::placeholder {
   .row {
     align-items: center;
   }
-  .middle {
-    font-size: 1.2em !important;
-  }
   .contact-details p {
     font-size: 2.5em;
   }
@@ -483,6 +480,9 @@ textarea#message::placeholder {
   }
 }
 @media (max-width: 415px) {
+  .wrapper {
+    padding: 1rem;
+  }
   .row.intro p {
     font-size: 9px;
   }
@@ -490,17 +490,20 @@ textarea#message::placeholder {
     display: flex;
     flex-direction: column;
   }
-  .contact-form {
-    margin-bottom: 20px;
-  }
   .col {
     width: 100%;
     padding: 0;
   }
   .contact-details p {
-    font-size: 3em;
+    font-size: 2.4em;
   }
   .marquee-contact span.contact-span {
     font-size: 6em;
+  }
+  .bar {
+    padding: 0;
+  }
+  .middle {
+    font-size: 1.2rem;
   }
 }
