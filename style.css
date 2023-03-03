@@ -20,6 +20,7 @@ body {
   font-family: Tabac;
   font-weight: 200;
   max-width: 1200px;
+  overflow-x: hidden;
 }
 html,
 body {
