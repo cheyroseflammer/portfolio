@@ -19,6 +19,7 @@ body {
   color: var(--primary-color);
   font-family: Tabac;
   font-weight: 200;
+  max-width: 1200px;
 }
 html,
 body {
@@ -27,7 +28,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow-x: hidden;
 }
 a {
   text-decoration: none;
@@ -50,19 +50,19 @@ a {
   background: #ddd374;
 }
 /* ANIMATE CSS IN */
-.intro > p,
+/* .intro > p,
 .hr,
 .reveal h1,
 h2,
 p.text,
 .nav-item {
   visibility: hidden;
-}
+} */
 /* HERO */
 .wrapper {
   width: 100%;
   height: 100%;
-  padding: 1rem;
+  padding: 2rem;
 }
 .row {
   display: flex;
@@ -81,10 +81,9 @@ div.reveal:nth-child(2) {
   justify-content: flex-end;
 }
 .reveal {
-  width: 500px;
+  width: 300px;
   height: 140px;
   position: relative;
-  overflow-y: hidden;
 }
 .reveal h1.based {
   margin-left: 12%;
@@ -434,6 +433,9 @@ textarea#message::placeholder {
   }
 }
 @media (max-width: 800px) {
+  .wrapper {
+    padding: 1.4rem;
+  }
   .reveal {
     height: 120px;
   }
@@ -458,9 +460,6 @@ textarea#message::placeholder {
     margin-top: 5px;
     height: 40px;
   }
-  .reveal h1.primary {
-    line-height: 1em;
-  }
   .white-space {
     height: 20px;
   }
@@ -476,14 +475,6 @@ textarea#message::placeholder {
   .contact-details p {
     font-size: 2.5em;
   }
-  .contact-form {
-    padding-left: 15px;
-  }
-}
-@media (max-width: 415px) {
-  .row.intro p {
-    font-size: 9px;
-  }
   .contact-section {
     display: flex;
     flex-direction: column;
@@ -491,6 +482,11 @@ textarea#message::placeholder {
   .col {
     width: 100%;
     padding: 0;
+  }
+}
+@media (max-width: 415px) {
+  .row.intro p {
+    font-size: 9px;
   }
   .contact-details p {
     font-size: 2.4em;
