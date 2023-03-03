@@ -20,7 +20,6 @@ body {
   font-family: Tabac;
   font-weight: 200;
   max-width: 1200px;
-  overflow-x: hidden;
 }
 html,
 body {
@@ -29,6 +28,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow-x: hidden;
 }
 a {
   text-decoration: none;
